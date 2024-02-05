@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador de texto</title>
+    <script src="https://kit.fontawesome.com/28522b82af.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img  class="logotipo" src="assets/Frame 6.png" alt="Logo Alura">
+        <h1>Descodificador de texto</h1>
+    </header>
+
+    <main>
+        <section class="digitar_texto">
+            <textarea class="campo_digitacao" placeholder="Digite o texto"></textarea>
+            <p class="aviso_de_escrita"> 
+                <i class="fa-solid fa-circle-exclamation"></i>
+                Apenas letras minúsculas e sem acento
+            </p>
+            <div class="botoes">
+                <button class="botao_criptografar" onclick="criptografar()">Criptografar</button>
+                <button class="botao_descriptografar" onclick="descriptografar()">Descriptografar</button>
+            </div>
+        </section>
+        
+        <section class="apresentar_resultado">
+            <div class="fundo">
+                <img src="assets/sherlock.png"  alt="procurando" class="imagem">
+                <h2 class="subtitulo_mensagem">Nenhuma mensagem encontrada</h2>
+                <p class="mensagem">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            
+            <button class="copiar" onclick="copiar()"><i class="fa-solid fa-copy fa-xl"></i></button>
+        </section>
+        
+    </main>
+
+    <footer class="rodape">
+        <a class="contato" href="https://www.instagram.com/kauedacostamatos">
+            <i class="fa-brands fa-instagram"></i>
+            @Kauedacostamatos
+        </a>
+        <a class="contato" href="https://www.github.com/Kaue-C-Matos">
+            <i class="fa-brands fa-github"></i>
+            Kaue-C-Matos
+        </a>
+        <a class="contato" href="https://www.linkedin.com/in/kauê-da-costa-matos-770140275">
+            <i class="fa-brands fa-linkedin"></i>
+            Kauê da Costa Matos
+        </a>
+    </footer>
+    <script src="app.js" defer></script>
+</body>
+</html>
