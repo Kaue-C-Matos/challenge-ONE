@@ -44,7 +44,7 @@ function apresentarResultado(resultado) {
 
     mensagem.innerHTML = resultado;
     mensagem.style.fontSize = "24px";
-    mensagem.style.margin = "16px 16px 80% 0";
+    mensagem.style.wordWrap = "break-word";
 
     botaoCopiar.style.display = "block";
     botaoCopiar.style.color = "black"
