@@ -97,9 +97,9 @@ main {
 
 .apresentar_resultado {
     height: 100vh;
-    width: 400px;
+    width: 375px;
     border-radius: 32px;
-    padding: 12px;
+    padding: 20px;
     margin: 5px 0 5px 5px;
     box-shadow: 0px 0px 15px -12px black;
     display: flex;
@@ -116,9 +116,8 @@ main {
 
 .mensagem{
     font-size: 16px;
-    overflow: auto;
     word-wrap: break-word; 
-    max-width: 300px;
+    max-width: 350px;
 }
 
 .copiar {
@@ -151,7 +150,12 @@ main {
     background-color: var(--cor-primaria);
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1000px){
+    .logotipo{
+        width: 100px;
+        height: 32px;
+    }
+
     main{
         flex-direction: column;
         height: 90vh;
@@ -175,7 +179,7 @@ main {
 
     .apresentar_resultado{
         height: 20vh;
-        width: 90%;
+        width: 85%;
         margin: 0 8px 20px 8px;
     }
 
@@ -186,6 +190,6 @@ main {
     .rodape{
         flex-direction: column;
         gap: 10px;
-        width: 91%;
+        width: 89%;
     }
 }
